@@ -1,4 +1,13 @@
-com\cj\crstats\backcommapi\controller\RestTemplateConfig.class
-com\cj\crstats\backcommapi\controller\CRController.class
 com\cj\crstats\backcommapi\Main.class
-com\cj\crstats\backcommapi\utils\Utils.class
+com\cj\crstats\backcommapi\model\CardDataObj.class
+com\cj\crstats\backcommapi\model\BadgeDataObj.class
+com\cj\crstats\backcommapi\repository\PlayerDataRepository.class
+com\cj\crstats\backcommapi\model\ArenaDataObj.class
+com\cj\crstats\backcommapi\model\SupportCardDataObj.class
+com\cj\crstats\backcommapi\config\ApiUtils.class
+com\cj\crstats\backcommapi\model\IconUrlsDataObj.class
+com\cj\crstats\backcommapi\model\AchievementDataObj.class
+com\cj\crstats\backcommapi\model\ClanDataObj.class
+com\cj\crstats\backcommapi\service\PlayerDataService.class
+com\cj\crstats\backcommapi\model\PlayerDataObj.class
+com\cj\crstats\backcommapi\controller\PlayerDataController.class
