@@ -36,4 +36,16 @@ public class PlayerDataRepository {
 
         return ResponseEntity.ok().contentType(MediaType.APPLICATION_JSON).body(response);
     }
+
+    public ResponseEntity<String> getPublicIP() {
+        WebClient webClient2 = WebClient.builder().build();
+        String url = "https://api64.ipify.org?format=json";
+        String response = webClient2.get()
+                .uri(url)
+                .retrieve()
+                .bodyToMono(String.class)
+                .block();
+
+        return ResponseEntity.ok().contentType(MediaType.APPLICATION_JSON).body(response);
+    }
 }

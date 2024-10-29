@@ -20,4 +20,8 @@ public class PlayerDataService {
     public ResponseEntity<String> getPlayerUpcomingChestData(String playerTag) {
         return playerDataRepository.getPlayerUpcomingChestData(playerTag);
     }
+
+    public ResponseEntity<String> getPublicIP() {
+        return playerDataRepository.getPublicIP();
+    }
 }

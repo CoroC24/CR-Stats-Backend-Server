@@ -26,4 +26,9 @@ public class PlayerDataController {
     public ResponseEntity<String> getPlayerUpcomingChestData(@PathVariable String playerTag) {
         return playerInfService.getPlayerUpcomingChestData(playerTag);
     }
+
+    @GetMapping("/getpublicip")
+    public ResponseEntity<String> getPublicIP() {
+        return playerInfService.getPublicIP();
+    }
 }
